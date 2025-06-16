@@ -33,6 +33,11 @@ f#root {
   }
 }
 
+* {
+  justify-content: center;
+  justify-items: center;
+}
+
 .card {
   padding: 2em;
 }
