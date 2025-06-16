@@ -7,7 +7,6 @@ import cumzoner from "./assets/ВПТБ.mp3"
 
 function App() {
   const [count, setCount] = useState(0)
-  const [musicaboba, setmusicaboba] = useState(<></>)
   const [audioElements, setAudioElements] = useState<(HTMLAudioElement | null)[]>([]);
 
   useEffect(() => {
